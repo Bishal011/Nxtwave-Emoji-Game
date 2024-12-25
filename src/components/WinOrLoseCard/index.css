@@ -1,0 +1,116 @@
+/* Write your code here. */
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #ffffff33;
+  width: 85%;
+  border: 3px solid #ffffff30;
+  border-radius: 35px;
+  margin: auto;
+  padding: 15px;
+  font-family: 'Roboto';
+}
+
+.details-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  order: 1;
+}
+
+.head2 {
+  color: #ffffff;
+  font-size: 33px;
+  font-weight: bold;
+}
+
+.para2 {
+  color: #ffffff;
+  text-align: center;
+  font-size: 19px;
+  font-weight: bold;
+  margin: 0px;
+}
+
+.para3 {
+  color: #6a59ff;
+  text-align: center;
+  font-size: 33px;
+  font-weight: bold;
+  margin: 0px;
+}
+
+.button2 {
+  background-color: #ffce27;
+  color: #3d3d3d;
+  font-size: 15px;
+  font-weight: bold;
+  border: none;
+  border-radius: 20px;
+  margin: 15px;
+  padding: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+  cursor: pointer;
+  outline: none;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+  order: 0;
+}
+
+.img3 {
+  width: 150px;
+  height: 200px;
+}
+
+
+@media screen and (min-width: 768px) {
+  .card-container {
+    width: 80%;
+    padding: 32px;
+  }
+
+  .details-container {
+    order: 0;
+  }
+
+  .head2 {
+    font-size: 65px;
+  }
+
+  .para2 {
+    font-size: 35px;
+  }
+
+  .para3 {
+    font-size: 49px;
+  }
+
+  .img-container {
+    order: 1;
+  }
+  .img3 {
+    width: 350px;
+    height: 450px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .card-container {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .card-container {
+    width: 60%;
+  }
+}
